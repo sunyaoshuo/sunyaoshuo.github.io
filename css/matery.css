@@ -34,11 +34,10 @@
 }
 
 body {
-    background-color: #eaeaea;
+    background: linear-gradient(60deg, rgba(7, 15, 124, 0.5) 5%, rgba(27, 92, 233, 0.35) ) 0% 0% /     cover, url("https://x.png"), url("https://x.jpg") 0px 0px;
+    background-attachment: fixed;
     margin: 0;
-    color: #34495e;
-    overflow-x: hidden;
-    overflow-y: auto;
+    color: #154be0;
 }
 
 h1 {
@@ -241,11 +240,12 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #4085df 0%, #e63131 100%);
+    opacity: 0.9;
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #000000 !important;
 }
 
 .white-color {
@@ -257,7 +257,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right, #000000 0%, #000000 100%);
     opacity: 0.8;
 }
 
@@ -550,10 +550,10 @@ header .go-back i {
     height: 40vh !important;
 }
 
-.bg-cover:after {
+/*.bg-cover:after {
     -webkit-animation: rainbow 60s infinite;
     animation: rainbow 60s infinite;
-}
+}*/
 
 .bg-cover:before,
 .bg-cover:after {
